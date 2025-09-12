@@ -3,11 +3,13 @@ project:
 
 website:
   title: "Othmane Elouardi"
+  site-url: https://othmane-elouardi.github.io
   navbar:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
 
 format:
   html:
@@ -16,6 +18,5 @@ format:
       - brand
     css: styles.css
     toc: true
-
 
 
