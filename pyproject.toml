@@ -1,0 +1,15 @@
+[project]
+name = "othmaneelouardi-github-io"
+version = "0.0.1"
+description = "initial website for Othmane Elouardi Github"
+authors = [{ name = "Othmane", email = "othmane@bu.edu" }]
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy (>=2.3.3,<3.0.0)", "pandas (>=2.3.2,<3.0.0)", "matplotlib (>=3.10.6,<4.0.0)", "seaborn (>=0.13.2,<0.14.0)", "plotly (>=6.3.0,<7.0.0)", "jupyter (>=1.1.1,<2.0.0)", "ipykernel (>=6.30.1,<7.0.0)"]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
